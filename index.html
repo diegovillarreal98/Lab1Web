@@ -2,6 +2,31 @@
 <html>
   <head>
     <style>
+      #foot{
+        background-color: black;
+        font-size: 90%;
+        color: white;
+        text-align: center;
+        font-style: italic;
+        border: 10px solid powderblue;
+        margin: 10px;
+      }
+      #name{
+        height: 30px;
+        border: 10px solid grey;
+        border-color: grey;
+        border-width: 8px;
+        color: white;
+        margin: 30px;
+        padding: 20px;
+        background-color: black
+      }
+      #title{
+        border: 10px solid grey;  
+        background-color: black;
+        color: white;
+        font-style: bold;
+      }
      h1 {text-align: center;}
      h3 {text-align: center;}
      h4 {text-align: center;}
@@ -16,7 +41,7 @@
   <body>
     <header>
       <div>
-        <h1> Diego Alejandro Villarreal López</h1>
+        <h1 id = "name"> Diego Alejandro Villarreal López</h1>
       </div>
       <div>
         <address>
@@ -36,14 +61,14 @@
     <main>
       <section>
          <div>
-            <h2>Education</h2>
+            <h2 id="title">Education</h2>
             <li>Computer Science and Technology at Tecnologico de Monterrey.</li>  
             <li>Overall Average <span style="color:black;font-weight:bold">90.21</span> </li>
         </div>
       </section>
       <section>
         <div>
-            <h2>Experience and Projects</h2>
+            <h2 id="title">Experience and Projects</h2>
             <div>
               <li><span style="color:black;font-weight:bold">Speech Bubble IOS (Swift) - Hack Monterrey 2019</span><ul>Proyect that helped people that had hearing problems to understand what people where saying with help of Augmented Reality and Apis that helped translate Speech to text</ul></li>
             </div>
@@ -57,7 +82,7 @@
       </section>
       <section>
         <div>
-            <h2>Abilities</h2>
+            <h2 id="title">Abilities</h2>
             <li><span style="color:black;font-weight:bold">Programming Languages</span>
               <ul>C++ -----<span style="color:black;font-weight:bold">Advanced</span></ul>
               <ul>C -----  <span style="color:black;font-weight:bold">Intermediate</span></ul>
@@ -75,14 +100,14 @@
       </section>
       <section>
         <div>
-            <h2>Interests</h2>
+            <h2 id="title">Interests</h2>
             <li>VideoGames</li>  
             <li>Security of Information</li>  
             <li>Reading</li>
         </div>
       </section>
       <footer>
-        <p>Author: Diego Villarreal</p>
+        <p id = "foot"> Author: Diego Alejandro Villarreal López</p>
       </footer>
     </main>
   
